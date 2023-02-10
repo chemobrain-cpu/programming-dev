@@ -3,9 +3,6 @@ const { Admin, User } = require("../database/database")
 const { generateAcessToken } = require('../utils/util')
 const jwt = require("jsonwebtoken")
 const mongoose = require("mongoose")
-const axios = require('axios')
-const Flutterwave = require('flutterwave-node-v3');
-const flw = new Flutterwave(process.env.FLW_PUBLIC_KEY, process.env.FLW_SECRET_KEY);
 
 
 
